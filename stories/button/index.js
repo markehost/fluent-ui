@@ -1,7 +1,6 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
 import Button from '../../components/button/index';
-// import Button from '../index';
 
 storiesOf('Button', module)
   .add('default view', () => (

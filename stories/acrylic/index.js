@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import Button from '../index';
+import Acrylic from '../../components/acrylic/index';
 
-storiesOf('Button', module)
+storiesOf('Acrylic', module)
   .add('default view', () => (
-    <Button onClick={ action('button clicked') }>Hello</Button>
+    <Acrylic onClick={ action('Acrylic clicked') }>Hello</Acrylic>
   ))
   .add('some emojies as the text', () => (
-    <Button>😀 😎 👍 💯</Button>
+    <Acrylic>😀 😎 👍 💯</Acrylic>
   ))
   .add('custom styles', () => {
     const style = {
@@ -16,6 +16,6 @@ storiesOf('Button', module)
       color: '#FF8833',
     };
     return (
-      <Button style={ style }>Hello</Button>
+      <Acrylic style={ style }>Hello</Acrylic>
     );
   });
