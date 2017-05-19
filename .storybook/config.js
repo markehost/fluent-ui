@@ -6,7 +6,8 @@
 import { configure } from '@kadira/storybook';
 
 function loadStories() {
-  require('../src/stories');
+  require('../stories/button');
+  // require('../stories/button');
 }
 
 configure(loadStories, module);
