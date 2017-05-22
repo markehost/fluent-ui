@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import Acrylic from '../../components/acrylic/index';
+import Acrylic from '../../src/acrylic/index';
 import { expect } from 'chai';
 import sinon from 'sinon';
 const { describe, it } = global;

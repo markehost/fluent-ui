@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import Acrylic from '../../components/acrylic/index';
+import Acrylic from '../../src/acrylic/index';
 
 storiesOf('Acrylic', module)
   .add('default view', () => (

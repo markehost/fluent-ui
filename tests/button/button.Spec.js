@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import Button from '../../components/button/index';
+import Button from '../../src/button/index';
 import { expect } from 'chai';
 import sinon from 'sinon';
 const { describe, it } = global;
